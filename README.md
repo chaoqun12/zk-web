@@ -3,6 +3,15 @@
 zk-web is a Web UI of [Zookeeper](http://zookeeper.apache.org), just making it easier to use. Sometimes I really get tired of the command line.
 zk-web is written in [clojure](http://clojure.org) with [noir](http://webnoir.org) and [boostrap](http://twitter.github.com/bootstrap/). Currently there're just less than 450 lines clojure code at all. Clojure is really so simple and so elegent!
 
+# install lein
+If "lein" is not present, do the following.
+
+```
+$ wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+$ chmod +x lein
+$ sudo mv lein /usr/local/bin
+```
+
 ## Usage
 
 To use zk-web, you need [leiningen](https://github.com/technomancy/leiningen) and git currentlly. (And I'll make a stand-alone package later).
